@@ -8,7 +8,7 @@ class Box extends React.Component {
                 <div className="counter">
                     COUNTER
                 </div>
-                ----------------------------------
+                ------------------------------------
                 <div>
                     <button className="add">+</button>
                     <span className="count"> 2 </span>
