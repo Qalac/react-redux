@@ -20,7 +20,9 @@
   },
   "scripts": {
     "start": "parcel public/index.html",
+    "build": "parcel build public/index.html --out-dir build/",
     "predeploy": "parcel build public/index.html --out-dir build/ --public-url ./",
     "deploy": "gh-pages -d build"
   }
 }
+
